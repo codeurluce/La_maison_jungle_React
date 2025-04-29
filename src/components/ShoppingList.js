@@ -3,15 +3,6 @@ import { plantList } from "../datas/plantsList";
 import '../styles/shoppingList.css';
 import PlantItem from './PlantItem';
 
-    //  🔹 Extraction des catégories uniques avec reduce()
-    // function ShoppingList() {
-    // const categories = plantList.reduce((acc, plant) => {
-    //     if (!acc.includes(plant.category)) {
-    //         acc.push(plant.category)
-    //     }
-    //     return acc
-    // }, [])
-
 function ShoppingList() {
 	const categories = plantList.reduce(
 		(acc, plant) =>
