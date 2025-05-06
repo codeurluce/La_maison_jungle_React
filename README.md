@@ -25,3 +25,8 @@
 - HTML / CSS
 - JavaScript (ES6+)
 - JSX
+
+## Projet
+- git clone https://github.com/codeurluce/La_maison_jungle_React
+- cd La_maison_jungle_React
+- installer les dependances
